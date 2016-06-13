@@ -1,0 +1,182 @@
+%YAML 1.2
+---
+meta:
+  max_length: 1500  # 기본적으로 글자수가 1500자 미만이면 제외
+
+# 형식
+# CP_ID:
+#   - id: string          (Spine ID, 마지막 spine을 나타낼 경우 ::LAST)
+#     regex: bool         (Spine ID가 정규표현식이면 true로)
+#     force: bool         (true면 글자수에 상관 없이 제외)
+#     max_length: integer (글자수 기준 조정)
+
+#   - include: integer    (다른 ID꺼를 그대로 포함 - 당연히 사이클이 생기면 안됨)
+
+120:  # 북큐브
+  - id: epubfile-0001 # 표지
+622: {} # 어울림출판사, 소설이당
+731: {} # TODO: 백연
+740: {} # TODO: 초우
+741: {} # TODO: 김운영
+742: {} # TODO: 묘재
+775:  # 설봉
+  - id: COVERPAGE.html  # 표지
+777:  # 파피루스
+  - id: cover.html  # 표지
+  - id: cover.xhtml # 표지
+809:  # 동아
+  - id: cover.xhtml     # 표지
+  - id: titlepage.xhtml # 제목,저자,출판
+845:  # 서울문화사
+  - id: Section0001.xhtml # 표지
+  - id: ::LAST            # 서지
+875:  # 도서출판 청어람
+  - id: CoverPage         # 표지
+  - id: cover.xhtml       # 표지
+  - id: coverpage.xhtml   # 표지
+  - id: coerpage.xhtml    # 표지
+  - id: covepage.xhtml    # 표지
+  - id: covepgae.xhtml    # 표지
+  - id: coverpgae.xhtml   # 표지
+  - id: covvepage.xhtml   # 표지
+  - id: main.xhtml        # 제목,저자
+  - id: copy.xhtml        # 서지
+    force: true
+  - id: chapter002.html   # 서지 (일부)
+  - id: chapter003.html   # 서지 (일부)
+945:  # 에피루스, 히어로북스
+  - id: part00    # 표지
+  - id: part01    # 제목, 링크 없는 목차
+  - id: part02    # 연재관 FNC 클럽
+  - id: part0001  # 서지
+961:  # 알에스매니지먼트
+  - id: coverpage.xhtml   # 표지
+  - id: cover.xhtml       # 표지
+  - id: COVERPAGE.html    # 표지
+  - id: text002.xhtml     # 서지
+  - id: Section0002.xhtml # 서지
+  - id: logo.xhtml        # 로고
+  - id: rslogo.xhtml      # 서지, 로고
+1007: # 프로무림
+  - id: id0   # 표지
+  - id: id17  # 서지
+    max_length: 1600
+1087: # 낙화암
+  - id: Section0001   # 표지
+  - id: Section00001  # 서지
+1100: # 미디어바오밥, 서울창작
+  - id: Section0001.xhtml # 표지
+  - id: Section0002.xhtml # 서지
+  - id: Section0003.xhtml # 저자 소개
+1149: # 알에스&디딤돌
+  - include: 961
+1190: # 스카이북
+  - id: content1  # 표지
+    force: true
+1239: {}  # TODO: 북팔
+1250: # 어울림출판사, e-온누리
+  - include : 622
+1275: # 가온북스
+  - id: cover1001 # 표지
+  - id: ::LAST    # 서지
+1356: # 데일리북스
+  - id: Section0001.xhtml # 표지
+    max_length: 500
+  - id: Section0002.xhtml # 표지, 서지
+    max_length: 900
+  - id: CoverPage         # 표지
+  - id: cover.xhtml       # 표지
+  - id: TOC.xhtml         # 제목, 목차
+  - id: shlogo.xhtml      # 서지
+1377: # (주)인타임
+  - id: cover.xhtml       # 표지
+  - id: intime.xhtml      # 서지
+  - id: rok.xhtml         # 서지
+  - id: Section0001.xhtml # 제목
+  - id: Section0002.xhtml # 제목
+1410: # 초록인
+  - id: Section0001.xhtml # 표지 서지
+1414: # 드림북스
+  - id: Section00001      # 표지
+  - id: Section0001.xhtml # 표지
+1415: # 글쓰는 사람들
+  - id: titlepage # 표지
+  - id: id21      # 서지
+1459: # 루트북스
+  - id: cover_f.xhtml # 표지
+  - id: Info.xhtml    # 서지
+1466: # 디콘북
+  - id: cover.html      # 표지
+  - id: list.html       # 제목, 저자
+  - id: copyright.html  # 서지
+1483: # 피플앤스토리
+  - id: Cover.xhtml     # 표지
+  - id: Title.xhtml     # 제목
+  - id: Copyright.xhtml # 서지
+1525: # KT
+  - id: cover.xhtml   # 표지
+  - include: 1275
+1534: # 라온E&M
+  - id: book_cover  # 표지
+  - id: book_title  # 제목
+  - id: book_info   # 서지
+  - id: book_toc    # 링크 없는 목차
+1539: # 스토리 훈
+  - id: cover.xhtml   # 표지
+  - id: shlogo.xhtml  # 서지
+1543: # CL 프로덕션
+  - include: 2057
+1632: # 엠게임이엔티
+  - id: TOC.xhtml # 제목
+1651: # 마녀 주식회사
+  - id: cover.xhtml       # 표지
+  - id: Section0002.xhtml # 서지
+1811: # 로크미디어
+  - id: cover.xhtml # 표지
+  - id: rok.xhtml   # 서지
+1820: # 너클루저연구소
+  - id: Section0001.xhtml # 표지
+  - id: ::LAST            # 서지
+1962: # 영상노트
+  - id: cover.xhtml       # 표지
+1970: # 휴먼와이즈미디어
+  - id: p_cover       # 표지
+  - id: ::LAST        # 서지
+    max_length: 1700
+1979: # (주)포웰미디북
+  - id: Cover             # 표지
+  - id: Copy              # 서지
+  - id: CoverPage         # 표지
+  - id: chapter002.xhtml  # 서지
+    max_length: 4400
+2057: # (주)케이더블유북스
+  - id: cover.xhtml     # 표지
+  - id: coverpage.xhtml # 표지
+  - id: copy.xhtml      # 서지
+2065: # 제이플러스미디어
+  - id: cover.html      # 표지
+  - id: license.html    # 서지
+2067: # 티브이펀㈜
+  - id: cover.xhtml   # 표지
+  - id: right.xhtml   # 서지
+  - id: author.xhtml  # 저자 소개
+2074: # 바라바라스토리
+  - id: Section00001  # 표지
+  - id: ::LAST        # 서지
+    max_length: 1600
+2079: # 연출E&M
+  - include: 1970
+2107: # (주)고렘팩토리
+  - id: Section00001      # 표지
+  - id: Section0001.xhtml # 표지
+  - id: Section00003      # 서지
+  - id: Section0003.xhtml # 서지
+2200: # (주)마야마루출판사
+  - id: Section0001.xhtml # 표지
+  - id: ::LAST            # 서지
+2282: # KW북스
+  - id: cover.xhtml # 표지
+  - id: copy.xhtml  # 서지
+undefined:  # 미정의 (default)
+  - id: (?i)cover
+    regex: true
