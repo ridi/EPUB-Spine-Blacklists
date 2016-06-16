@@ -177,6 +177,9 @@ meta:
 2282: # KW북스
   - id: cover.xhtml # 표지
   - id: copy.xhtml  # 서지
+2299: # 마이더스스토리
+  - id: coverpage.xhtml # 표지
+  - id: copy.xhtml # 서지
 undefined:  # 미정의 (default)
   - id: (?i)cover
     regex: true
