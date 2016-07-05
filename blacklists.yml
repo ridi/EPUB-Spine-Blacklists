@@ -5,6 +5,8 @@ meta:
 
 # 형식
 # CP_ID:
+#   - rev: integer        (Data revision)
+
 #   - id: string          (Spine ID, 마지막 spine을 나타낼 경우 ::LAST)
 #     regex: bool         (Spine ID가 정규표현식이면 true로)
 #     force: bool         (true면 글자수에 상관 없이 제외)
@@ -13,24 +15,39 @@ meta:
 #   - include: integer    (다른 ID꺼를 그대로 포함 - 당연히 사이클이 생기면 안됨)
 
 120:  # 북큐브
+  - rev: 0
   - id: epubfile-0001 # 표지
-622: {} # 어울림출판사, 소설이당
-731: {} # TODO: 백연
-740: {} # TODO: 초우
-741: {} # TODO: 김운영
-742: {} # TODO: 묘재
+425: # 문피아
+  - rev: 1
+  - id: book_cover  # 표지
+  - id: book_info   # 서지
+622: # 어울림출판사, 소설이당
+  - rev: 0
+731: # TODO: 백연
+  - rev: 0
+740: # TODO: 초우
+  - rev: 0
+741: # TODO: 김운영
+  - rev: 0
+742: # TODO: 묘재
+  - rev: 0
 775:  # 설봉
+  - rev: 0
   - id: COVERPAGE.html  # 표지
 777:  # 파피루스
+  - rev: 0
   - id: cover.html  # 표지
   - id: cover.xhtml # 표지
 809:  # 동아
+  - rev: 0
   - id: cover.xhtml     # 표지
   - id: titlepage.xhtml # 제목,저자,출판
 845:  # 서울문화사
+  - rev: 0
   - id: Section0001.xhtml # 표지
   - id: ::LAST            # 서지
 875:  # 도서출판 청어람
+  - rev: 0
   - id: CoverPage         # 표지
   - id: cover.xhtml       # 표지
   - id: coverpage.xhtml   # 표지
@@ -45,11 +62,13 @@ meta:
   - id: chapter002.html   # 서지 (일부)
   - id: chapter003.html   # 서지 (일부)
 945:  # 에피루스, 히어로북스
+  - rev: 0
   - id: part00    # 표지
   - id: part01    # 제목, 링크 없는 목차
   - id: part02    # 연재관 FNC 클럽
   - id: part0001  # 서지
 961:  # 알에스매니지먼트
+  - rev: 0
   - id: coverpage.xhtml   # 표지
   - id: cover.xhtml       # 표지
   - id: COVERPAGE.html    # 표지
@@ -58,28 +77,37 @@ meta:
   - id: logo.xhtml        # 로고
   - id: rslogo.xhtml      # 서지, 로고
 1007: # 프로무림
+  - rev: 0
   - id: id0   # 표지
   - id: id17  # 서지
     max_length: 1600
 1087: # 낙화암
+  - rev: 0
   - id: Section0001   # 표지
   - id: Section00001  # 서지
 1100: # 미디어바오밥, 서울창작
+  - rev: 0
   - id: Section0001.xhtml # 표지
   - id: Section0002.xhtml # 서지
   - id: Section0003.xhtml # 저자 소개
 1149: # 알에스&디딤돌
+  - rev: 0
   - include: 961
 1190: # 스카이북
+  - rev: 0
   - id: content1  # 표지
     force: true
-1239: {}  # TODO: 북팔
+1239:
+  - rev: 0
 1250: # 어울림출판사, e-온누리
+  - rev: 0
   - include : 622
 1275: # 가온북스
+  - rev: 0
   - id: cover1001 # 표지
   - id: ::LAST    # 서지
 1356: # 데일리북스
+  - rev: 0
   - id: Section0001.xhtml # 표지
     max_length: 500
   - id: Section0002.xhtml # 표지, 서지
@@ -89,27 +117,34 @@ meta:
   - id: TOC.xhtml         # 제목, 목차
   - id: shlogo.xhtml      # 서지
 1377: # (주)인타임
+  - rev: 0
   - id: cover.xhtml       # 표지
   - id: intime.xhtml      # 서지
   - id: rok.xhtml         # 서지
   - id: Section0001.xhtml # 제목
   - id: Section0002.xhtml # 제목
 1410: # 초록인
+  - rev: 0
   - id: Section0001.xhtml # 표지 서지
 1414: # 드림북스
+  - rev: 0
   - id: Section00001      # 표지
   - id: Section0001.xhtml # 표지
 1415: # 글쓰는 사람들
+  - rev: 0
   - id: titlepage # 표지
   - id: id21      # 서지
 1459: # 루트북스
+  - rev: 0
   - id: cover_f.xhtml # 표지
   - id: Info.xhtml    # 서지
 1466: # 디콘북
+  - rev: 0
   - id: cover.html      # 표지
   - id: list.html       # 제목, 저자
   - id: copyright.html  # 서지
 1483: # 피플앤스토리
+  - rev: 0
   - id: Cover.xhtml     # 표지
   - id: Title.xhtml     # 제목
   - id: Copyright.xhtml # 서지
@@ -150,36 +185,46 @@ meta:
   - id: chapter002.xhtml  # 서지
     max_length: 4400
 2057: # (주)케이더블유북스
+  - rev: 0
   - id: cover.xhtml     # 표지
   - id: coverpage.xhtml # 표지
   - id: copy.xhtml      # 서지
 2065: # 제이플러스미디어
+  - rev: 1
   - id: cover.html      # 표지
   - id: license.html    # 서지
 2067: # 티브이펀㈜
+  - rev: 0
   - id: cover.xhtml   # 표지
   - id: right.xhtml   # 서지
   - id: author.xhtml  # 저자 소개
 2074: # 바라바라스토리
+  - rev: 0
   - id: Section00001  # 표지
   - id: ::LAST        # 서지
     max_length: 1600
 2079: # 연출E&M
+  - rev: 0
   - include: 1970
 2107: # (주)고렘팩토리
+  - rev: 0
   - id: Section00001      # 표지
   - id: Section0001.xhtml # 표지
   - id: Section00003      # 서지
   - id: Section0003.xhtml # 서지
 2200: # (주)마야마루출판사
+  - rev: 0
   - id: Section0001.xhtml # 표지
   - id: ::LAST            # 서지
 2282: # KW북스
+  - rev: 0
   - id: cover.xhtml # 표지
   - id: copy.xhtml  # 서지
 2299: # 마이더스스토리
+  - rev: 1
   - id: coverpage.xhtml # 표지
-  - id: copy.xhtml # 서지
+  - id: copy.xhtml      # 서지
 undefined:  # 미정의 (default)
+  - rev: 0
   - id: (?i)cover
     regex: true
