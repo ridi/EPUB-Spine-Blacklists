@@ -178,8 +178,9 @@ meta:
   - id: Section0001.xhtml # 표지
   - id: ::LAST            # 서지
 2282: # KW북스
-  - id: cover.xhtml # 표지
-  - id: copy.xhtml  # 서지
+  - id: cover.xhtml     # 표지
+  - id: copy.xhtml      # 서지
+  - id: copyright.xhtml # 서지
 2299: # 마이더스스토리
   - id: coverpage.xhtml # 표지
   - id: copy.xhtml      # 서지
