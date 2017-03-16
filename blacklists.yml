@@ -35,9 +35,10 @@ meta:
   - id: cover.html  # 표지
   - id: cover.xhtml # 표지
 793:  #마이디팟
-  - id: chapter002.html
-  - id: chapter007.html
-  max_length: 400
+  - id: CoverPage       # 표지
+  - id: chapter002.html # 서지
+  - id: chapter007.html # 서지
+    max_length: 1200
 809:  # 동아
   - id: cover.xhtml     # 표지
   - id: titlepage.xhtml # 제목,저자,출판
@@ -75,7 +76,7 @@ meta:
 1007: # 프로무림, 다우인큐브(바로북)
   - id: id0   # 표지
   - id: id17  # 서지
-    max_length: 1600
+    max_length: 1700
 1087: # 낙화암
   - id: Section0001   # 표지
   - id: Section00001  # 서지
@@ -195,7 +196,7 @@ meta:
   - id: Section00001      # 표지
   - id: Section0001.xhtml # 표지
   - id: ::LAST            # 서지
-    max_length: 600
+    max_length: 1600
 2196: # 판다플립
   - id: cover.xhtml     # 표지
   - id: copyright.xhtml # 서지
