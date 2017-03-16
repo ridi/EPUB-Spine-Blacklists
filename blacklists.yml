@@ -211,7 +211,8 @@ meta:
   - id: coverpage.xhtml # 표지
   - id: copy.xhtml      # 서지
 2351: # 에스알이앤엠
-  - id: book_info # 서지
+  - id: book_cover # 표지 
+  - id: book_info  # 서지
 2391: # 케이오씨엠
   - id: cover.html     # 표지
   - id: copyright.html # 서지 
