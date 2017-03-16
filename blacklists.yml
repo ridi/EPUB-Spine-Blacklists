@@ -156,7 +156,6 @@ meta:
   - id: copyright.xhtml # 서지
 1820: # 너클루저연구소
   - id: Section0001.xhtml # 표지
-  - id: Section0017.xhtml # 서지
   - id: ::LAST            # 서지
 1824: # 와이엠북스
   - id: cover.xhtml       # 표지
@@ -195,8 +194,8 @@ meta:
 2107: # (주)고렘팩토리
   - id: Section00001      # 표지
   - id: Section0001.xhtml # 표지
-  - id: Section00003      # 서지
   - id: ::LAST            # 서지
+    max_length: 600
 2196: # 판다플립
   - id: cover.xhtml     # 표지
   - id: copyright.xhtml # 서지
@@ -217,4 +216,6 @@ meta:
   - id: copyright.html # 서지 
 undefined:  # 미정의 (default)
   - id: (?i)cover
+    regex: true
+  - id: (?i)copy
     regex: true
