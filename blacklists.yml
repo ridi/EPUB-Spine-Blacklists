@@ -175,6 +175,10 @@ meta:
   - id: chapter002.xhtml  # 서지
     max_length: 4400
 2057: # (주)케이더블유북스
+  - id: cover.xhtml     # 표지
+  - id: coverpage.xhtml # 표지
+  - id: copy.xhtml      # 서지
+  - id: copyright.xhtml # 서지
 2065: # 제이플러스미디어
   - id: cover.html      # 표지
   - id: license.html    # 서지
