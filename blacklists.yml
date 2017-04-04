@@ -152,9 +152,10 @@ meta:
   - id: Section0002.xhtml # 서지
 1811: # 로크미디어
   - id: cover.xhtml     # 표지
+  - id: epubfile-0001   # 표지
   - id: rok.xhtml       # 서지
-  - id: epubfile-0005   # 서지
   - id: copyright.xhtml # 서지
+  - id: ::LAST          # 서지
 1820: # 너클루저연구소
   - id: Section0001.xhtml # 표지
   - id: ::LAST            # 서지
