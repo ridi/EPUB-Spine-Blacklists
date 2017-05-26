@@ -75,6 +75,8 @@ meta:
   - id: rslogo.xhtml      # 서지, 로고
 1007: # 프로무림, 다우인큐브(바로북)
   - id: id0   # 표지
+  - id: (?i)id
+    regex: true
   - id: id17  # 서지
     max_length: 1750
 1087: # 낙화암
