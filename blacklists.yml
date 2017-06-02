@@ -73,12 +73,7 @@ meta:
   - id: Section0002.xhtml # 서지
   - id: logo.xhtml        # 로고
   - id: rslogo.xhtml      # 서지, 로고
-1007: # 프로무림, 다우인큐브(바로북)
-  - id: id0   # 표지
-  - id: (?i)Section
-    regex: true
-  - id: id17  # 서지
-    max_length: 1750
+1007: {}
 1087: # 낙화암
   - id: Section0001   # 표지
   - id: Section00001  # 서지
