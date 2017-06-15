@@ -1,16 +1,7 @@
 %YAML 1.2
 ---
 meta:
-  max_length: 1500  # 기본적으로 글자수가 1500자 미만이면 제외
-
-# 형식
-# CP_ID:
-#   - id: string          (Spine ID, 마지막 spine을 나타낼 경우 ::LAST)
-#     regex: bool         (Spine ID가 정규표현식이면 true로)
-#     force: bool         (true면 글자수에 상관 없이 제외)
-#     max_length: integer (글자수 기준 조정)
-
-#   - include: integer    (다른 ID꺼를 그대로 포함 - 당연히 사이클이 생기면 안됨)
+  max_length: 1500
 
 102:  #조아라닷컴
   - id: cover           # 표지
