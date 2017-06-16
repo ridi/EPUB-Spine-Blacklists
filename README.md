@@ -1,6 +1,7 @@
 # ePub-Spine-Blacklists
 
-Blacklist 처리 되어야하는 EPub Spine 판별에 필요한 정보를 가지고있는 데이터
+Blacklist 처리 되어야하는 EPub Spine 판별에 필요한 정보를 가지고있는 데이터.
+주로 표지, 서지, 저자소개등 연속된 독서 흐름에 방해되는 콘텐츠를 줄여주기 위한 목적으로 이용.
 
 ### 형식
 ```
