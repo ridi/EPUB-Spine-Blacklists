@@ -76,7 +76,13 @@ meta:
   - id: Section0002.xhtml # 서지
   - id: Section0003.xhtml # 저자 소개
 1149: # 알에스&디딤돌
-  - include: 961
+  - id: coverpage.xhtml   # 표지
+  - id: cover.xhtml       # 표지
+  - id: COVERPAGE.html    # 표지
+  - id: text002.xhtml     # 서지
+  - id: Section0002.xhtml # 서지
+  - id: logo.xhtml        # 로고
+  - id: rslogo.xhtml      # 서지, 로고
 1190: # 스카이북
   - id: content1  # 표지
     force: true
@@ -84,7 +90,6 @@ meta:
 1250: # 어울림출판사, e-온누리, 컨텐츠헤라
   - id: cover.xhtml       # 표지
   - id: Section0001.xhtml # 서지
-  - include : 622
 1275: # 가온북스
   - id: cover1001 # 표지
   - id: ::LAST    # 서지
@@ -125,7 +130,8 @@ meta:
   - id: Copyright.xhtml # 서지
 1525: # KT
   - id: cover.xhtml   # 표지
-  - include: 1275
+  - id: cover1001     # 표지
+  - id: ::LAST        # 서지
 1534: # 라온E&M
   - id: book_cover  # 표지
   - id: book_title  # 제목
@@ -135,7 +141,10 @@ meta:
   - id: cover.xhtml   # 표지
   - id: shlogo.xhtml  # 서지
 1543: # CL 프로덕션
-  - include: 2057
+  - id: cover.xhtml     # 표지
+  - id: coverpage.xhtml # 표지
+  - id: copy.xhtml      # 서지
+  - id: copyright.xhtml # 서지
 1632: # 엠게임이엔티
   - id: TOC.xhtml # 제목
 1651: # 마녀 주식회사
@@ -182,7 +191,9 @@ meta:
   - id: ::LAST        # 서지
     max_length: 1600
 2079: # 연출E&M
-  - include: 1970
+  - id: p_cover       # 표지
+  - id: ::LAST        # 서지
+    max_length: 1700
 2107: # (주)고렘팩토리
   - id: Section00001      # 표지
   - id: Section0001.xhtml # 표지
