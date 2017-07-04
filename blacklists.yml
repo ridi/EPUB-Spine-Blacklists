@@ -6,6 +6,7 @@ meta:
 102:  #조아라닷컴
   - id: cover           # 표지
   - id: cover.html      # 표지
+  - id: title.html      # 표지
   - id: copyright.html  # 서지
   - id: copyright.xhtml # 서지
   - id: endtitle.xhtml  # 서지
@@ -32,10 +33,14 @@ meta:
     max_length: 1200
 809:  # 동아
   - id: cover.xhtml     # 표지
+  - id: chapter01.xhtml # 서지
   - id: titlepage.xhtml # 제목,저자,출판
 845:  # 서울문화사
-  - id: Section0001.xhtml # 표지
-  - id: ::LAST            # 서지
+  - id: cover.xhtml              # 표지
+  - id: Section0001.xhtml        # 표지
+  - id: content_split_0001.xhtml # 제목
+  - id: content_split_0003.xhtml # 서지
+  - id: ::LAST                   # 서지
 875:  # 도서출판 청어람
   - id: CoverPage         # 표지
   - id: cover.xhtml       # 표지
@@ -52,14 +57,17 @@ meta:
   - id: chapter002.html   # 서지 (일부)
   - id: chapter003.html   # 서지 (일부)
 945:  # 에피루스, 히어로북스
+  - id: cover     # 표지
   - id: part00    # 표지
   - id: part01    # 제목, 링크 없는 목차
   - id: part02    # 연재관 FNC 클럽
+  - id: part03    # 서지
   - id: part0001  # 서지
 961:  # 알에스매니지먼트
   - id: coverpage.xhtml   # 표지
   - id: cover.xhtml       # 표지
   - id: COVERPAGE.html    # 표지
+  - id: titlepage         # 표지
   - id: text002.xhtml     # 서지
   - id: Section0002.xhtml # 서지
   - id: logo.xhtml        # 로고
@@ -86,7 +94,9 @@ meta:
 1190: # 스카이북
   - id: content1  # 표지
     force: true
-1239: {}  # TODO: 북팔
+1239: # 북팔
+  - id: titlepage # 표지
+  - id: chapter1  # 서지
 1250: # 어울림출판사, e-온누리, 컨텐츠헤라
   - id: cover.xhtml       # 표지
   - id: Section0001.xhtml # 서지
@@ -162,18 +172,22 @@ meta:
   - id: cover.xhtml       # 표지
   - id: Section0000.xhtml # 서지
 1962: # 영상노트, 엠스토리허브
+  - id: cover             # 표지
   - id: cover.xhtml       # 표지
   - id: Section0003.xhtml # 서지
+  - id: a2                # 서지
 1970: # 휴먼와이즈미디어
   - id: p_cover       # 표지
   - id: ::LAST        # 서지
     max_length: 1700
 1979: # (주)포웰미디북
   - id: Cover             # 표지
-  - id: Copy              # 서지
   - id: CoverPage         # 표지
+  - id: Copy              # 서지
   - id: chapter002.xhtml  # 서지
     max_length: 4400
+2008: # 브리드
+  - id: cover.html     # 표지
 2057: # (주)케이더블유북스
   - id: cover.xhtml     # 표지
   - id: coverpage.xhtml # 표지
@@ -212,6 +226,11 @@ meta:
 2299: # 마이더스스토리
   - id: coverpage.xhtml # 표지
   - id: copy.xhtml      # 서지
+2336: # 재미로엔터테인먼트
+  - id: titlepage  # 표지
+2350: # 나비트
+  - id: cover.xhtml
+  - id: cr.xhtml
 2351: # 에스알이앤엠
   - id: book_cover # 표지 
   - id: book_info  # 서지
