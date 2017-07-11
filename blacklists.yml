@@ -13,6 +13,8 @@ meta:
   - id: a2              # 서지
 120:  # 북큐브
   - id: epubfile-0001 # 표지
+211: # 신영 미디어
+  - id: cover.xhtml # 표지
 425: # 문피아
   - id: book_cover  # 표지
   - id: book_info   # 서지
@@ -155,6 +157,11 @@ meta:
   - id: coverpage.xhtml # 표지
   - id: copy.xhtml      # 서지
   - id: copyright.xhtml # 서지
+1623: # 수려한
+  - id: Section00001  # 표지
+  - id: Section00002  # 표지
+  - id: Section00003  # 제목
+  - id: Section00info # 서지
 1632: # 엠게임이엔티
   - id: TOC.xhtml # 제목
 1651: # 마녀 주식회사
@@ -213,6 +220,12 @@ meta:
   - id: Section0001.xhtml # 표지
   - id: ::LAST            # 서지
     max_length: 1600
+2155: # 에이치비
+  - id: cover.xhtml     # 표지
+  - id: copyright.xhtml # 서지
+2183: # 요미북스
+  - id: coverpage.html  # 표지
+  - id: copyright.xhtml # 서지
 2196: # 판다플립
   - id: cover.xhtml     # 표지
   - id: copyright.xhtml # 서지
@@ -228,13 +241,56 @@ meta:
   - id: copy.xhtml      # 서지
 2336: # 재미로엔터테인먼트
   - id: titlepage  # 표지
+2349: # 맹수주의
+  - id: cover_f.xhtml # 표지
+  - id: Info.xhtml    # 제목
+  - id: cover_1.xhtml # 표지
+  - id: cover_2.xhtml # 서지
 2350: # 나비트
   - id: cover.xhtml
   - id: cr.xhtml
 2351: # 에스알이앤엠
   - id: book_cover # 표지 
+  - id: book_title # 제목
   - id: book_info  # 서지
+2384: # 리디북스, 차이지단
+  - id: cover.html     # 표지
+  - id: copyright.html # 서지 
 2391: # 케이오씨엠
+  - id: cover.html     # 표지
+  - id: copyright.html # 서지 
+2433: # 박나영(샤샤슈슈)
+  - id: cover.html     # 표지
+  - id: copyright.html # 서지 
+2469: # 이지나(삼나무)
+  - id: cover.html     # 표지
+  - id: copyright.html # 서지 
+2495: # 블루코드
+  - id: cover.xhtml # 표지
+2498: # (주)좋은세상
+  - id: cover01.xhtml # 표지
+2654: # 김유나(메카니스트)
+  - id: cover.html     # 표지
+  - id: copyright.html # 서지 
+2740: # 김선영(yoyo)
+  - id: cover.html     # 표지
+  - id: copyright.html # 서지 
+2903: # 정서우(사탕수수)
+  - id: cover.html     # 표지
+  - id: copyright.html # 서지 
+2904: # 서유미(유마)
+  - id: cover.html     # 표지
+  - id: copyright.html # 서지 
+2905: # 엄인혜(Winterbaum, 겨울나무)
+  - id: cover.html     # 표지
+  - id: copyright.html # 서지 
+2906: # 김주아(모스카레토)
+  - id: cover.html     # 표지
+  - id: copyright.html # 서지 
+2908: # 김지현(전기양)
+  - id: cover.html     # 표지
+  - id: copyright.html # 서지 
+2909: # 황선이(그루)
   - id: cover.html     # 표지
   - id: copyright.html # 서지 
 undefined:  # 미정의 (default)
