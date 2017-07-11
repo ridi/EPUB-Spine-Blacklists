@@ -247,8 +247,9 @@ meta:
   - id: cover_1.xhtml # 표지
   - id: cover_2.xhtml # 서지
 2350: # 나비트
-  - id: cover.xhtml
-  - id: cr.xhtml
+  - id: cover.xhtml  # 표지
+  - id: cr.xhtml     # 서지
+  - id: toc.xhtml    # 목차
 2351: # 에스알이앤엠
   - id: book_cover # 표지 
   - id: book_title # 제목
