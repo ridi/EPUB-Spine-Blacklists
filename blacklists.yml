@@ -230,6 +230,7 @@ meta:
   - id: cover.xhtml     # 표지
   - id: copyright.xhtml # 서지
 2200: # (주)마야마루출판사
+  - id: cover.xhtml       # 표지
   - id: Section0001.xhtml # 표지
   - id: ::LAST            # 서지
 2282: # KW북스
