@@ -15,6 +15,8 @@ meta:
   - id: epubfile-0001 # 표지
 211: # 신영 미디어
   - id: cover.xhtml # 표지
+323: # 엔블록
+  - id: Section0001.xhtml # 표지
 425: # 문피아
   - id: book_cover  # 표지
   - id: book_info   # 서지
