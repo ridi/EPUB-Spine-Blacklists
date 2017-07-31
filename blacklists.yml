@@ -35,7 +35,7 @@ meta:
   - id: chapter002.html # 서지
   - id: chapter007.html # 서지
     max_length: 1200
-809:  # 동아
+809:  # 동아미디어
   - id: cover.xhtml     # 표지
   - id: chapter01.xhtml # 서지
   - id: titlepage.xhtml # 제목,저자,출판
@@ -297,6 +297,31 @@ meta:
 2909: # 황선이(그루)
   - id: cover.html     # 표지
   - id: copyright.html # 서지 
+2927: # 동아미디어(도피안_선인세)
+  - id: cover.xhtml    # 표지
+2929: # 수려한(그해열음_선인세)
+  - id: Section00001  # 표지
+  - id: Section00002  # 표지
+  - id: Section00003  # 제목
+  - id: Section00info # 서지
+2930: # 맹수주의(경화수월_선인세)
+  - id: cover_f.xhtml # 표지
+  - id: Info.xhtml    # 제목
+  - id: cover_1.xhtml # 표지
+  - id: cover_2.xhtml # 서지
+2931: # 서울문화사(AVEMARIA_선인세)
+  - id: cover.xhtml    # 표지
+  - id: content_split_0001.xhtml # 제목
+  - id: content_split_0003.xhtml # 서지
+2934: # 에이치비(기담항설_선인세)
+  - id: cover.xhtml     # 표지
+  - id: copyright.xhtml # 서지
+2935: # 동아미디어(고양이는 아홉 번을 산다_선인세)
+  - id: cover.xhtml    # 표지
+2936: # 동아미디어(사랑에 빠지다_선인세)
+  - id: cover.xhtml    # 표지
+2944: # 상상컴퍼니(달보드레_선인세)
+  - id: coverimage.html # 표지
 undefined:  # 미정의 (default)
   - id: (?i)cover
     regex: true
