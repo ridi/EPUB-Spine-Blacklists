@@ -20,6 +20,9 @@ meta:
 425: # 문피아
   - id: book_cover  # 표지
   - id: book_info   # 서지
+565: # 가하
+  - id: cover.xhtml     # 표지
+  - id: copyright.xhtml # 서지
 622: {} # 어울림출판사, 소설이당
 731: {} # TODO: 백연
 740: {} # TODO: 초우
@@ -95,6 +98,9 @@ meta:
   - id: Section0002.xhtml # 서지
   - id: logo.xhtml        # 로고
   - id: rslogo.xhtml      # 서지, 로고
+1173: # 우신북스
+  - id: cover.xhtml       # 표지
+  - id: Section0001.xhtml # 서지
 1190: # 스카이북
   - id: content1  # 표지
     force: true
@@ -168,6 +174,8 @@ meta:
   - id: TOC.xhtml # 제목
 1651: # 마녀 주식회사
   - id: cover.xhtml       # 표지
+  - id: Incover.xhtml     # 표지
+  - id: copyright.xhtml   # 서지
   - id: Section0002.xhtml # 서지
 1811: # 로크미디어
   - id: cover.xhtml     # 표지
@@ -234,7 +242,12 @@ meta:
 2200: # (주)마야마루출판사
   - id: cover.xhtml       # 표지
   - id: Section0001.xhtml # 표지
+  - id: copyright.xhtml   # 서지
   - id: ::LAST            # 서지
+2264: # 예원북스
+  - id: cover.xhtml # 표지
+  - id: main.html   # 서지
+  - id: logo.html   # 로고
 2282: # KW북스
   - id: cover.xhtml     # 표지
   - id: copy.xhtml      # 서지
@@ -242,6 +255,11 @@ meta:
 2299: # 마이더스스토리
   - id: coverpage.xhtml # 표지
   - id: copy.xhtml      # 서지
+2314: # 주식회사 씨앤제이
+  - id: cov             # 표지
+  - id: chapter1.html   # 표지
+  - id: chapter2        # 서지
+  - id: chapter3        # 표지
 2336: # 재미로엔터테인먼트
   - id: titlepage  # 표지
 2349: # 맹수주의
@@ -279,6 +297,10 @@ meta:
 2740: # 김선영(yoyo)
   - id: cover.html     # 표지
   - id: copyright.html # 서지 
+2806: # 도서출판 작가나무
+  - id: info.xhtml     # 서지
+2825: {} # 최나래(안경원숭이)
+2861: {} # 박윤정(공미수)
 2903: # 정서우(사탕수수)
   - id: cover.html     # 표지
   - id: copyright.html # 서지 
@@ -297,31 +319,34 @@ meta:
 2909: # 황선이(그루)
   - id: cover.html     # 표지
   - id: copyright.html # 서지 
-2927: # 동아미디어(도피안_선인세)
+2927: # 동아미디어(도피안)
   - id: cover.xhtml    # 표지
-2929: # 수려한(그해열음_선인세)
+2929: # 수려한(그해열음)
   - id: Section00001  # 표지
   - id: Section00002  # 표지
   - id: Section00003  # 제목
   - id: Section00info # 서지
-2930: # 맹수주의(경화수월_선인세)
+2930: # 맹수주의(경화수월)
   - id: cover_f.xhtml # 표지
   - id: Info.xhtml    # 제목
   - id: cover_1.xhtml # 표지
   - id: cover_2.xhtml # 서지
-2931: # 서울문화사(AVEMARIA_선인세)
+2931: # 서울문화사(AVEMARIA)
   - id: cover.xhtml    # 표지
   - id: content_split_0001.xhtml # 제목
   - id: content_split_0003.xhtml # 서지
-2934: # 에이치비(기담항설_선인세)
+2934: # 에이치비(기담항설)
   - id: cover.xhtml     # 표지
   - id: copyright.xhtml # 서지
-2935: # 동아미디어(고양이는 아홉 번을 산다_선인세)
+2935: # 동아미디어(고양이는 아홉 번을 산다)
   - id: cover.xhtml    # 표지
-2936: # 동아미디어(사랑에 빠지다_선인세)
+2936: # 동아미디어(사랑에 빠지다)
   - id: cover.xhtml    # 표지
-2944: # 상상컴퍼니(달보드레_선인세)
+2944: # 상상컴퍼니(달보드레)
   - id: coverimage.html # 표지
+3007: # DR미디어
+  - id: cover.html     # 표지
+3026: {} # 신혜원(리모란)
 undefined:  # 미정의 (default)
   - id: (?i)cover
     regex: true
