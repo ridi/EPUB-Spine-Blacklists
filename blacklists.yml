@@ -117,7 +117,7 @@ meta:
   - id: Section0001.xhtml # 표지
     max_length: 500
   - id: Section0002.xhtml # 표지, 서지
-    max_length: 900
+    max_length: 700
   - id: CoverPage         # 표지
   - id: cover.xhtml       # 표지
   - id: TOC.xhtml         # 제목, 목차
