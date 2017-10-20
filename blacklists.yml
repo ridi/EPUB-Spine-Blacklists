@@ -344,6 +344,9 @@ meta:
   - id: cover.xhtml    # 표지
 2944: # 상상컴퍼니(달보드레)
   - id: coverimage.html # 표지
+2991: # 데일리북스
+  - id: Section0001.xhtml  # 표지
+  - id: TOC.xhtml          # 목차
 3007: # DR미디어
   - id: cover.html     # 표지
 3026: {} # 신혜원(리모란)
