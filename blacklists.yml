@@ -213,6 +213,7 @@ meta:
 2065: # 제이플러스미디어
   - id: cover.html      # 표지
   - id: license.html    # 서지
+  - id: copyright.html  # 서지
 2067: # 티브이펀㈜
   - id: cover.xhtml   # 표지
   - id: right.xhtml   # 서지
