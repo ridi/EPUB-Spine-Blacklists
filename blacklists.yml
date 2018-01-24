@@ -80,8 +80,9 @@ meta:
   - id: logo.xhtml        # 로고
   - id: rslogo.xhtml      # 서지, 로고
 1007: # 프로무림, 다우인큐브(바로북)
-  - id: id0   # 표지
-  - id: id17  # 서지
+  - id: coverpage     # 표지
+  - id: id0           # 표지
+  - id: id17          # 서지
     max_length: 1750
 1087: # 낙화암
   - id: Section0001   # 표지
@@ -227,8 +228,9 @@ meta:
   - id: ::LAST        # 서지
     max_length: 1700
 2107: # (주)고렘팩토리
+  - id: cover.xhtml       # 표지
   - id: Section00001      # 표지
-  - id: Section0001.xhtml # 표지
+  - id: Section0001.xhtml # 표지, 목차
     max_length: 700
   - id: ::LAST            # 서지
     max_length: 1600
