@@ -296,8 +296,8 @@ meta:
 2498: # (주)좋은세상
   - id: cover01.xhtml     # 표지
   - id: cover.xhtml       # 표지
+  - id: Section0005.xhtml # 서지
   - id: Section0002.xhtml # 서지
-    max_length: 1000
 2654: # 김유나(메카니스트)
   - id: cover.html     # 표지
   - id: copyright.html # 서지 
