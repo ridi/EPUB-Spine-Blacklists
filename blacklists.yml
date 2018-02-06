@@ -248,6 +248,10 @@ meta:
   - id: Section0001.xhtml # 표지
   - id: copyright.xhtml   # 서지
   - id: ::LAST            # 서지
+2213: # 민트BL
+  - id: cover.xhtml       # 표지
+  - id: copyright.xhtml   # 서지
+    force: true
 2264: # 예원북스
   - id: cover.xhtml # 표지
   - id: main.html   # 서지
@@ -266,6 +270,7 @@ meta:
   - id: chapter3        # 표지
 2336: # 재미로엔터테인먼트
   - id: titlepage  # 표지
+  - id: cover      # 표지
 2349: # 맹수주의
   - id: cover_f.xhtml # 표지
   - id: Info.xhtml    # 제목
