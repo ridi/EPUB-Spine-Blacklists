@@ -188,7 +188,9 @@ meta:
   - id: ::LAST            # 서지
 1824: # 와이엠북스
   - id: cover.xhtml       # 표지
+  - id: cover.html        # 표지
   - id: Section0000.xhtml # 서지
+  - id: cp.html           # 서지
 1962: # 영상노트, 엠스토리허브
   - id: cover             # 표지
   - id: cover.xhtml       # 표지
