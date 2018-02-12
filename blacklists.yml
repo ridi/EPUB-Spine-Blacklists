@@ -234,6 +234,8 @@ meta:
   - id: Section00001      # 표지
   - id: Section0001.xhtml # 표지, 목차
     max_length: 700
+  - id: copyright.xhtml   # 서지
+    force: true
   - id: ::LAST            # 서지
     max_length: 1600
 2155: # 에이치비
