@@ -47,7 +47,9 @@ meta:
   - id: Section0001.xhtml        # 표지
   - id: content_split_0001.xhtml # 제목
   - id: content_split_0003.xhtml # 서지
+    max_length: 1600
   - id: ::LAST                   # 서지
+    max_length: 1600
 875:  # 도서출판 청어람
   - id: CoverPage         # 표지
   - id: cover.xhtml       # 표지
