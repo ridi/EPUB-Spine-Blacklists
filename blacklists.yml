@@ -86,6 +86,7 @@ meta:
   - id: id0           # 표지
   - id: id17          # 서지
     max_length: 1750
+  - id: copyright     # 서지
 1087: # 낙화암
   - id: Section0001   # 표지
   - id: Section00001  # 서지
