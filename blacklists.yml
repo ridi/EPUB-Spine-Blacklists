@@ -370,6 +370,10 @@ meta:
 3007: # DR미디어
   - id: cover.html        # 표지
 3026: {} # 신혜원(리모란)
+3049: # 뷰컴즈
+  - id: cover.xhtml       # 표지
+  - id: copyright.xhtml   # 서지
+    force: true
 3228: # JC미디어
   - id: cover.xhtml       # 표지
   - id: copyright.xhtml   # 서지
