@@ -378,6 +378,10 @@ meta:
   - id: cover.xhtml       # 표지
   - id: copyright.xhtml   # 서지
     max_length: 1600
+3822: # 온글미디어
+  - id: cover.html        # 표지
+  - id: copyright.html    # 서지
+    max_length: 1650
 undefined: # 미정의 (default)
   - id: (?i)cover
     regex: true
