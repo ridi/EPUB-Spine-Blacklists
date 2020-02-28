@@ -65,6 +65,8 @@ meta:
   - id: copyright.xhtml   # 서지
   - id: chapter002.html   # 서지 (일부)
   - id: chapter003.html   # 서지 (일부)
+  - id: Section0001.xhtml # 본문
+    max_length: 700
 945: # 에피루스, 히어로북스
   - id: cover             # 표지
   - id: part00            # 표지
