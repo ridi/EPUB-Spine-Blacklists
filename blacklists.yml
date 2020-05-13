@@ -308,11 +308,12 @@ meta:
   - id: copyright.html    # 서지 
 2495: # 블루코드
   - id: cover.xhtml       # 표지
-2498: # (주)좋은세상
+2498: # 조은세상
   - id: cover01.xhtml     # 표지
   - id: cover.xhtml       # 표지
   - id: Section0005.xhtml # 서지
   - id: Section0002.xhtml # 서지
+    max_length: 950
 2654: # 김유나(메카니스트)
   - id: cover.html        # 표지
   - id: copyright.html    # 서지 
