@@ -388,7 +388,7 @@ meta:
   - id: copyright.html    # 서지
     max_length: 1650
 undefined: # 미정의 (default)
-  - id: (?i)cover
+  - id: (?i)cover(?!story)
     regex: true
   - id: (?i)copy
     regex: true
