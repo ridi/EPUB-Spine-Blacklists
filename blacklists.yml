@@ -379,6 +379,10 @@ meta:
   - id: cover.xhtml       # 표지
   - id: copyright.xhtml   # 서지
     force: true
+3092: # 피앙세
+  - id: html1             # 표지
+  - id: html3             # 서지
+    max_length: 1100
 3228: # JC미디어
   - id: cover.xhtml       # 표지
   - id: copyright.xhtml   # 서지
