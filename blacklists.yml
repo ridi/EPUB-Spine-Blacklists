@@ -134,6 +134,7 @@ meta:
   - id: intime.xhtml      # 서지
   - id: rok.xhtml         # 서지
   - id: Section0001.xhtml # 제목
+    max_length: 1100
   - id: Section0002.xhtml # 제목
 1410: # 초록인
   - id: Section0001.xhtml # 표지 서지
