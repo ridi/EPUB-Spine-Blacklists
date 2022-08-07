@@ -392,6 +392,10 @@ meta:
   - id: cover.html        # 표지
   - id: copyright.html    # 서지
     max_length: 1650
+4323: # 블랙시드
+  - id: cover.xhtml       # 표지
+  - id: copyright.xhtml   # 서지
+    force: true
 undefined: # 미정의 (default)
   - id: (?i)cover(?!story)
     regex: true
