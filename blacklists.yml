@@ -23,11 +23,11 @@ meta:
 565: # 가하
   - id: cover.xhtml       # 표지
   - id: copyright.xhtml   # 서지
-622: {} # 어울림출판사, 소설이당
-731: {} # TODO: 백연
-740: {} # TODO: 초우
-741: {} # TODO: 김운영
-742: {} # TODO: 묘재
+622: [] # 어울림출판사, 소설이당
+731: [] # TODO: 백연
+740: [] # TODO: 초우
+741: [] # TODO: 김운영
+742: [] # TODO: 묘재
 775: # 설봉
   - id: COVERPAGE.html    # 표지
 777: # 파피루스
@@ -325,8 +325,8 @@ meta:
   - id: copyright.html    # 서지 
 2806: # 도서출판 작가나무
   - id: info.xhtml        # 서지
-2825: {} # 최나래(안경원숭이)
-2861: {} # 박윤정(공미수)
+2825: [] # 최나래(안경원숭이)
+2861: [] # 박윤정(공미수)
 2903: # 정서우(사탕수수)
   - id: cover.html        # 표지
   - id: copyright.html    # 서지 
@@ -375,7 +375,7 @@ meta:
   - id: TOC.xhtml         # 목차
 3007: # DR미디어
   - id: cover.html        # 표지
-3026: {} # 신혜원(리모란)
+3026: [] # 신혜원(리모란)
 3049: # 뷰컴즈
   - id: cover.xhtml       # 표지
   - id: copyright.xhtml   # 서지
