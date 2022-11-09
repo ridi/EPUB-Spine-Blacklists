@@ -295,6 +295,10 @@ meta:
   - id: book_cover        # 표지 
   - id: book_title        # 제목
   - id: book_info         # 서지
+2369: # 윤송
+  - id: cover.xhtml       # 표지
+  - id: copyright.xhtml   # 서지 
+    force: true
 2384: # 리디북스, 차이지단
   - id: cover.html        # 표지
   - id: copyright.html    # 서지 
