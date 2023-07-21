@@ -250,6 +250,7 @@ meta:
   - id: copyright.xhtml   # 서지
 2183: # 요미북스
   - id: coverpage.html    # 표지
+  - id: cover.xhtml       # 표지
   - id: copyright.xhtml   # 서지
 2196: # 판다플립
   - id: cover.xhtml       # 표지
