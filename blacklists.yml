@@ -393,6 +393,10 @@ meta:
   - id: cover.xhtml       # 표지
   - id: copyright.xhtml   # 서지
     max_length: 1600
+3586: # JHS BOOKS
+  - id: book_cover        # 표지
+  - id: book_info         # 서지
+    force: true
 3822: # 온글미디어
   - id: cover.html        # 표지
   - id: copyright.html    # 서지
