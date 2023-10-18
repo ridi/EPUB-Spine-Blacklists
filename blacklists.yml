@@ -397,6 +397,9 @@ meta:
   - id: book_cover        # 표지
   - id: book_info         # 서지
     force: true
+3667: # 와이앤케이미디어
+  - id: cover.xhtml       # 표지
+  - id: a2                # 서지
 3822: # 온글미디어
   - id: cover.html        # 표지
   - id: copyright.html    # 서지
