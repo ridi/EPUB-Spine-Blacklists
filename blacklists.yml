@@ -392,7 +392,7 @@ meta:
 3228: # JC미디어
   - id: cover.xhtml       # 표지
   - id: copyright.xhtml   # 서지
-    max_length: 1600
+    max_length: 1700
 3586: # JHS BOOKS
   - id: book_cover        # 표지
   - id: book_info         # 서지
