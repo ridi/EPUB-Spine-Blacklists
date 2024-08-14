@@ -74,6 +74,7 @@ meta:
   - id: part02            # 연재관 FNC 클럽
   - id: part03            # 서지
   - id: part0001          # 서지
+  - id: cover.xhtml       # 표지
 961: # 알에스매니지먼트
   - id: coverpage.xhtml   # 표지
   - id: cover.xhtml       # 표지
