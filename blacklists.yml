@@ -263,6 +263,7 @@ meta:
   - id: ::LAST            # 서지
 2213: # 민트BL
   - id: cover.xhtml       # 표지
+  - id: cover1.xhtml      # 표지
   - id: copyright.xhtml   # 서지
     force: true
 2264: # 예원북스
