@@ -4,413 +4,413 @@ meta:
   max_length: 1500
 
 102: # 조아라닷컴
-  - id: cover             # 표지
-  - id: cover.html        # 표지
-  - id: title.html        # 표지
-  - id: copyright.html    # 서지
-  - id: copyright.xhtml   # 서지
-  - id: endtitle.xhtml    # 서지
-  - id: a2                # 서지
+  - id: cover # 표지
+  - id: cover.html # 표지
+  - id: title.html # 표지
+  - id: copyright.html # 서지
+  - id: copyright.xhtml # 서지
+  - id: endtitle.xhtml # 서지
+  - id: a2 # 서지
 120: # 북큐브
-  - id: epubfile-0001     # 표지
+  - id: epubfile-0001 # 표지
 211: # 신영 미디어
-  - id: cover.xhtml       # 표지
+  - id: cover.xhtml # 표지
 323: # 엔블록
   - id: Section0001.xhtml # 표지
 425: # 문피아
-  - id: book_cover        # 표지
-  - id: book_info         # 서지
+  - id: book_cover # 표지
+  - id: book_info # 서지
 565: # 가하
-  - id: cover.xhtml       # 표지
-  - id: copyright.xhtml   # 서지
+  - id: cover.xhtml # 표지
+  - id: copyright.xhtml # 서지
 622: [] # 어울림출판사, 소설이당
 731: [] # TODO: 백연
 740: [] # TODO: 초우
 741: [] # TODO: 김운영
 742: [] # TODO: 묘재
 775: # 설봉
-  - id: COVERPAGE.html    # 표지
+  - id: COVERPAGE.html # 표지
 777: # 파피루스
-  - id: cover.html        # 표지
-  - id: cover.xhtml       # 표지
+  - id: cover.html # 표지
+  - id: cover.xhtml # 표지
 793: # 마이디팟
-  - id: CoverPage         # 표지
-  - id: chapter002.html   # 서지
-  - id: chapter007.html   # 서지
+  - id: CoverPage # 표지
+  - id: chapter002.html # 서지
+  - id: chapter007.html # 서지
     max_length: 1200
 809: # 동아미디어
-  - id: cover.xhtml       # 표지
-  - id: chapter01.xhtml   # 서지
-  - id: titlepage.xhtml   # 제목,저자,출판
+  - id: cover.xhtml # 표지
+  - id: chapter01.xhtml # 서지
+  - id: titlepage.xhtml # 제목,저자,출판
 845: # 서울문화사
-  - id: cover.xhtml              # 표지
-  - id: Section0001.xhtml        # 표지
+  - id: cover.xhtml # 표지
+  - id: Section0001.xhtml # 표지
   - id: content_split_0001.xhtml # 제목
   - id: content_split_0003.xhtml # 서지
     max_length: 1600
-  - id: ::LAST                   # 서지
+  - id: ::LAST # 서지
     max_length: 1600
 875: # 도서출판 청어람
-  - id: CoverPage         # 표지
-  - id: cover.xhtml       # 표지
-  - id: coverpage.xhtml   # 표지
-  - id: coerpage.xhtml    # 표지
-  - id: covepage.xhtml    # 표지
-  - id: covepgae.xhtml    # 표지
-  - id: coverpgae.xhtml   # 표지
-  - id: covvepage.xhtml   # 표지
-  - id: main.xhtml        # 제목,저자
-  - id: copy.xhtml        # 서지
+  - id: CoverPage # 표지
+  - id: cover.xhtml # 표지
+  - id: coverpage.xhtml # 표지
+  - id: coerpage.xhtml # 표지
+  - id: covepage.xhtml # 표지
+  - id: covepgae.xhtml # 표지
+  - id: coverpgae.xhtml # 표지
+  - id: covvepage.xhtml # 표지
+  - id: main.xhtml # 제목,저자
+  - id: copy.xhtml # 서지
     force: true
-  - id: copyright.xhtml   # 서지
-  - id: chapter002.html   # 서지 (일부)
-  - id: chapter003.html   # 서지 (일부)
+  - id: copyright.xhtml # 서지
+  - id: chapter002.html # 서지 (일부)
+  - id: chapter003.html # 서지 (일부)
   - id: Section0001.xhtml # 본문
     max_length: 650
 945: # 에피루스, 히어로북스
-  - id: cover             # 표지
-  - id: part00            # 표지
-  - id: part01            # 제목, 링크 없는 목차
-  - id: part02            # 연재관 FNC 클럽
-  - id: part03            # 서지
-  - id: part0001          # 서지
-  - id: cover.xhtml       # 표지
+  - id: cover # 표지
+  - id: part00 # 표지
+  - id: part01 # 제목, 링크 없는 목차
+  - id: part02 # 연재관 FNC 클럽
+  - id: part03 # 서지
+  - id: part0001 # 서지
+  - id: cover.xhtml # 표지
 961: # 알에스매니지먼트
-  - id: coverpage.xhtml   # 표지
-  - id: cover.xhtml       # 표지
-  - id: COVERPAGE.html    # 표지
-  - id: titlepage         # 표지
-  - id: text002.xhtml     # 서지
+  - id: coverpage.xhtml # 표지
+  - id: cover.xhtml # 표지
+  - id: COVERPAGE.html # 표지
+  - id: titlepage # 표지
+  - id: text002.xhtml # 서지
   - id: Section0002.xhtml # 서지
-  - id: logo.xhtml        # 로고
-  - id: rslogo.xhtml      # 서지, 로고
+  - id: logo.xhtml # 로고
+  - id: rslogo.xhtml # 서지, 로고
 1007: # 프로무림, 다우인큐브(바로북)
-  - id: coverpage         # 표지
-  - id: id0               # 표지
-  - id: id17              # 서지
+  - id: coverpage # 표지
+  - id: id0 # 표지
+  - id: id17 # 서지
     max_length: 1750
-  - id: copyright         # 서지
+  - id: copyright # 서지
     max_length: 1800
 1087: # 낙화암
-  - id: Section0001       # 표지
-  - id: Section00001      # 서지
+  - id: Section0001 # 표지
+  - id: Section00001 # 서지
 1100: # 미디어바오밥, 서울창작
   - id: Section0001.xhtml # 표지
   - id: Section0002.xhtml # 서지
   - id: Section0003.xhtml # 저자 소개
 1149: # 알에스&디딤돌
-  - id: coverpage.xhtml   # 표지
-  - id: cover.xhtml       # 표지
-  - id: COVERPAGE.html    # 표지
-  - id: text002.xhtml     # 서지
+  - id: coverpage.xhtml # 표지
+  - id: cover.xhtml # 표지
+  - id: COVERPAGE.html # 표지
+  - id: text002.xhtml # 서지
   - id: Section0002.xhtml # 서지
-  - id: logo.xhtml        # 로고
-  - id: rslogo.xhtml      # 서지, 로고
+  - id: logo.xhtml # 로고
+  - id: rslogo.xhtml # 서지, 로고
 1173: # 우신북스
-  - id: cover.xhtml       # 표지
+  - id: cover.xhtml # 표지
   - id: Section0001.xhtml # 서지
 1190: # 스카이북
-  - id: content1          # 표지
+  - id: content1 # 표지
     force: true
 1239: # 북팔
-  - id: titlepage         # 표지
-  - id: chapter1          # 서지
+  - id: titlepage # 표지
+  - id: chapter1 # 서지
 1250: # 어울림출판사, e-온누리, 컨텐츠헤라
-  - id: cover.xhtml       # 표지
+  - id: cover.xhtml # 표지
   - id: Section0001.xhtml # 서지
 1275: # 가온북스
-  - id: cover1001         # 표지
-  - id: ::LAST            # 서지
+  - id: cover1001 # 표지
+  - id: ::LAST # 서지
 1356: # 데일리북스
   - id: Section0001.xhtml # 표지
     max_length: 500
   - id: Section0002.xhtml # 표지, 서지
     max_length: 700
-  - id: CoverPage         # 표지
-  - id: cover.xhtml       # 표지
-  - id: TOC.xhtml         # 제목, 목차
-  - id: shlogo.xhtml      # 서지
+  - id: CoverPage # 표지
+  - id: cover.xhtml # 표지
+  - id: TOC.xhtml # 제목, 목차
+  - id: shlogo.xhtml # 서지
 1377: # (주)인타임
-  - id: cover.xhtml       # 표지
-  - id: intime.xhtml      # 서지
-  - id: rok.xhtml         # 서지
+  - id: cover.xhtml # 표지
+  - id: intime.xhtml # 서지
+  - id: rok.xhtml # 서지
   - id: Section0001.xhtml # 제목
     max_length: 1100
   - id: Section0002.xhtml # 제목
 1410: # 초록인
   - id: Section0001.xhtml # 표지 서지
 1414: # 드림북스
-  - id: Section00001      # 표지
+  - id: Section00001 # 표지
   - id: Section0001.xhtml # 표지
 1415: # 글쓰는 사람들
-  - id: titlepage         # 표지
-  - id: id21              # 서지
+  - id: titlepage # 표지
+  - id: id21 # 서지
 1459: # 루트북스
-  - id: cover_f.xhtml     # 표지
-  - id: Info.xhtml        # 서지
+  - id: cover_f.xhtml # 표지
+  - id: Info.xhtml # 서지
 1466: # 디콘북
-  - id: cover.html        # 표지
-  - id: list.html         # 제목, 저자
-  - id: copyright.html    # 서지
-  - id: copyright.htm     # 서지
+  - id: cover.html # 표지
+  - id: list.html # 제목, 저자
+  - id: copyright.html # 서지
+  - id: copyright.htm # 서지
 1483: # 피플앤스토리
-  - id: Cover.xhtml       # 표지
-  - id: Title.xhtml       # 제목
-  - id: Copyright.xhtml   # 서지
+  - id: Cover.xhtml # 표지
+  - id: Title.xhtml # 제목
+  - id: Copyright.xhtml # 서지
 1525: # KT
-  - id: cover.xhtml       # 표지
-  - id: cover1001         # 표지
-  - id: ::LAST            # 서지
+  - id: cover.xhtml # 표지
+  - id: cover1001 # 표지
+  - id: ::LAST # 서지
 1534: # 라온E&M
-  - id: book_cover        # 표지
-  - id: book_title        # 제목
-  - id: book_info         # 서지
-  - id: book_toc          # 링크 없는 목차
+  - id: book_cover # 표지
+  - id: book_title # 제목
+  - id: book_info # 서지
+  - id: book_toc # 링크 없는 목차
 1539: # 스토리 훈
-  - id: cover.xhtml       # 표지
-  - id: shlogo.xhtml      # 서지
+  - id: cover.xhtml # 표지
+  - id: shlogo.xhtml # 서지
 1543: # CL 프로덕션
-  - id: cover.xhtml       # 표지
-  - id: coverpage.xhtml   # 표지
-  - id: copy.xhtml        # 서지
-  - id: copyright.xhtml   # 서지
+  - id: cover.xhtml # 표지
+  - id: coverpage.xhtml # 표지
+  - id: copy.xhtml # 서지
+  - id: copyright.xhtml # 서지
 1623: # 수려한
-  - id: Section00001      # 표지
-  - id: Section00002      # 표지
-  - id: Section00003      # 제목
-  - id: Section00info     # 서지
+  - id: Section00001 # 표지
+  - id: Section00002 # 표지
+  - id: Section00003 # 제목
+  - id: Section00info # 서지
 1632: # 엠게임이엔티
-  - id: TOC.xhtml         # 제목
+  - id: TOC.xhtml # 제목
 1651: # 마녀 주식회사
-  - id: cover.xhtml       # 표지
-  - id: Incover.xhtml     # 표지
-  - id: copyright.xhtml   # 서지
+  - id: cover.xhtml # 표지
+  - id: Incover.xhtml # 표지
+  - id: copyright.xhtml # 서지
   - id: Section0002.xhtml # 서지
 1811: # 로크미디어
-  - id: cover.xhtml       # 표지
-  - id: epubfile-0001     # 표지
-  - id: rok.xhtml         # 서지
-  - id: copyright.xhtml   # 서지
+  - id: cover.xhtml # 표지
+  - id: epubfile-0001 # 표지
+  - id: rok.xhtml # 서지
+  - id: copyright.xhtml # 서지
 1820: # 너클루저연구소
   - id: Section0001.xhtml # 표지
-  - id: ::LAST            # 서지
+  - id: ::LAST # 서지
 1824: # 와이엠북스
-  - id: cover.xhtml       # 표지
-  - id: cover.html        # 표지
+  - id: cover.xhtml # 표지
+  - id: cover.html # 표지
   - id: Section0000.xhtml # 서지
-  - id: cp.html           # 서지
+  - id: cp.html # 서지
 1962: # 영상노트, 엠스토리허브
-  - id: cover             # 표지
-  - id: cover.xhtml       # 표지
+  - id: cover # 표지
+  - id: cover.xhtml # 표지
   - id: Section0003.xhtml # 서지
-  - id: a2                # 서지
+  - id: a2 # 서지
 1970: # 휴먼와이즈미디어
-  - id: p_cover           # 표지
-  - id: ::LAST            # 서지
+  - id: p_cover # 표지
+  - id: ::LAST # 서지
     max_length: 1700
 1979: # (주)포웰미디북
-  - id: Cover             # 표지
-  - id: CoverPage         # 표지
-  - id: Copy              # 서지
-  - id: chapter002.xhtml  # 서지
+  - id: Cover # 표지
+  - id: CoverPage # 표지
+  - id: Copy # 서지
+  - id: chapter002.xhtml # 서지
     max_length: 4400
 2008: # 브리드
-  - id: cover.html        # 표지
+  - id: cover.html # 표지
 2057: # (주)케이더블유북스
-  - id: cover.xhtml       # 표지
-  - id: coverpage.xhtml   # 표지
-  - id: copy.xhtml        # 서지
-  - id: copyright.xhtml   # 서지
+  - id: cover.xhtml # 표지
+  - id: coverpage.xhtml # 표지
+  - id: copy.xhtml # 서지
+  - id: copyright.xhtml # 서지
 2065: # 제이플러스미디어
-  - id: cover.html        # 표지
-  - id: license.html      # 서지
-  - id: copyright.html    # 서지
+  - id: cover.html # 표지
+  - id: license.html # 서지
+  - id: copyright.html # 서지
 2067: # 티브이펀㈜
-  - id: cover.xhtml       # 표지
-  - id: right.xhtml       # 서지
-  - id: author.xhtml      # 저자 소개
+  - id: cover.xhtml # 표지
+  - id: right.xhtml # 서지
+  - id: author.xhtml # 저자 소개
 2074: # 바라바라스토리
-  - id: Section00001      # 표지
-  - id: ::LAST            # 서지
+  - id: Section00001 # 표지
+  - id: ::LAST # 서지
     max_length: 1600
 2079: # 연출E&M
-  - id: p_cover           # 표지
-  - id: ::LAST            # 서지
+  - id: p_cover # 표지
+  - id: ::LAST # 서지
     max_length: 1700
 2107: # (주)고렘팩토리
-  - id: cover.xhtml       # 표지
-  - id: Section00001      # 표지
+  - id: cover.xhtml # 표지
+  - id: Section00001 # 표지
   - id: Section0001.xhtml # 표지, 목차
     max_length: 700
-  - id: copyright.xhtml   # 서지
+  - id: copyright.xhtml # 서지
     force: true
-  - id: ::LAST            # 서지
+  - id: ::LAST # 서지
     max_length: 1600
 2155: # 에이치비
-  - id: cover.xhtml       # 표지
-  - id: copyright.xhtml   # 서지
+  - id: cover.xhtml # 표지
+  - id: copyright.xhtml # 서지
 2183: # 요미북스
-  - id: coverpage.html    # 표지
-  - id: cover.xhtml       # 표지
-  - id: copyright.xhtml   # 서지
+  - id: coverpage.html # 표지
+  - id: cover.xhtml # 표지
+  - id: copyright.xhtml # 서지
 2196: # 판다플립
-  - id: cover.xhtml       # 표지
-  - id: copyright.xhtml   # 서지
+  - id: cover.xhtml # 표지
+  - id: copyright.xhtml # 서지
 2200: # (주)마야마루출판사
-  - id: cover.xhtml       # 표지
+  - id: cover.xhtml # 표지
   - id: Section0001.xhtml # 표지
-  - id: copyright.xhtml   # 서지
-  - id: ::LAST            # 서지
+  - id: copyright.xhtml # 서지
+  - id: ::LAST # 서지
 2213: # 민트BL
-  - id: cover.xhtml       # 표지
-  - id: cover1.xhtml      # 표지
-  - id: copyright.xhtml   # 서지
+  - id: cover.xhtml # 표지
+  - id: cover1.xhtml # 표지
+  - id: copyright.xhtml # 서지
     force: true
 2264: # 예원북스
-  - id: cover.xhtml       # 표지
-  - id: main.html         # 서지
-  - id: logo.html         # 로고
+  - id: cover.xhtml # 표지
+  - id: main.html # 서지
+  - id: logo.html # 로고
 2282: # KW북스
-  - id: cover.xhtml       # 표지
-  - id: copy.xhtml        # 서지
-  - id: copyright.xhtml   # 서지
+  - id: cover.xhtml # 표지
+  - id: copy.xhtml # 서지
+  - id: copyright.xhtml # 서지
 2299: # 마이더스스토리
-  - id: coverpage.xhtml   # 표지
-  - id: copy.xhtml        # 서지
+  - id: coverpage.xhtml # 표지
+  - id: copy.xhtml # 서지
 2314: # 주식회사 씨앤제이
-  - id: cov               # 표지
-  - id: chapter1.html     # 표지
-  - id: chapter2          # 서지
-  - id: chapter3          # 표지
+  - id: cov # 표지
+  - id: chapter1.html # 표지
+  - id: chapter2 # 서지
+  - id: chapter3 # 표지
 2336: # 재미로엔터테인먼트
-  - id: titlepage         # 표지
-  - id: cover             # 표지
+  - id: titlepage # 표지
+  - id: cover # 표지
 2349: # 맹수주의
-  - id: cover_f.xhtml     # 표지
-  - id: Info.xhtml        # 제목
-  - id: cover_1.xhtml     # 표지
-  - id: cover_2.xhtml     # 서지
+  - id: cover_f.xhtml # 표지
+  - id: Info.xhtml # 제목
+  - id: cover_1.xhtml # 표지
+  - id: cover_2.xhtml # 서지
 2350: # 나비트
-  - id: cover.xhtml       # 표지
-  - id: cr.xhtml          # 서지
-  - id: toc.xhtml         # 목차
+  - id: cover.xhtml # 표지
+  - id: cr.xhtml # 서지
+  - id: toc.xhtml # 목차
 2351: # 에스알이앤엠
-  - id: book_cover        # 표지 
-  - id: book_title        # 제목
-  - id: book_info         # 서지
+  - id: book_cover # 표지 
+  - id: book_title # 제목
+  - id: book_info # 서지
 2369: # 윤송
-  - id: cover.xhtml       # 표지
-  - id: copyright.xhtml   # 서지 
+  - id: cover.xhtml # 표지
+  - id: copyright.xhtml # 서지 
     force: true
 2384: # 리디북스, 차이지단
-  - id: cover.html        # 표지
-  - id: copyright.html    # 서지 
+  - id: cover.html # 표지
+  - id: copyright.html # 서지 
 2391: # 케이오씨엠
-  - id: cover.html        # 표지
-  - id: copyright.html    # 서지 
+  - id: cover.html # 표지
+  - id: copyright.html # 서지 
 2433: # 박나영(샤샤슈슈)
-  - id: cover.html        # 표지
-  - id: copyright.html    # 서지 
+  - id: cover.html # 표지
+  - id: copyright.html # 서지 
 2469: # 이지나(삼나무)
-  - id: cover.html        # 표지
-  - id: copyright.html    # 서지 
+  - id: cover.html # 표지
+  - id: copyright.html # 서지 
 2495: # 블루코드
-  - id: cover.xhtml       # 표지
+  - id: cover.xhtml # 표지
 2498: # 조은세상
-  - id: cover01.xhtml     # 표지
-  - id: cover.xhtml       # 표지
+  - id: cover01.xhtml # 표지
+  - id: cover.xhtml # 표지
   - id: Section0005.xhtml # 서지
   - id: Section0002.xhtml # 서지
     max_length: 950
   - id: Section0001.xhtml # 서지
     max_length: 1800
 2654: # 김유나(메카니스트)
-  - id: cover.html        # 표지
-  - id: copyright.html    # 서지 
+  - id: cover.html # 표지
+  - id: copyright.html # 서지 
 2740: # 김선영(yoyo)
-  - id: cover.html        # 표지
-  - id: copyright.html    # 서지 
+  - id: cover.html # 표지
+  - id: copyright.html # 서지 
 2806: # 도서출판 작가나무
-  - id: info.xhtml        # 서지
+  - id: info.xhtml # 서지
 2825: [] # 최나래(안경원숭이)
 2861: [] # 박윤정(공미수)
 2903: # 정서우(사탕수수)
-  - id: cover.html        # 표지
-  - id: copyright.html    # 서지 
+  - id: cover.html # 표지
+  - id: copyright.html # 서지 
 2904: # 서유미(유마)
-  - id: cover.html        # 표지
-  - id: copyright.html    # 서지 
+  - id: cover.html # 표지
+  - id: copyright.html # 서지 
 2905: # 엄인혜(Winterbaum, 겨울나무)
-  - id: cover.html        # 표지
-  - id: copyright.html    # 서지 
+  - id: cover.html # 표지
+  - id: copyright.html # 서지 
 2906: # 김주아(모스카레토)
-  - id: cover.html        # 표지
-  - id: copyright.html    # 서지 
+  - id: cover.html # 표지
+  - id: copyright.html # 서지 
 2908: # 김지현(전기양)
-  - id: cover.html        # 표지
-  - id: copyright.html    # 서지 
+  - id: cover.html # 표지
+  - id: copyright.html # 서지 
 2909: # 황선이(그루)
-  - id: cover.html        # 표지
-  - id: copyright.html    # 서지 
+  - id: cover.html # 표지
+  - id: copyright.html # 서지 
 2927: # 동아미디어(도피안)
-  - id: cover.xhtml       # 표지
+  - id: cover.xhtml # 표지
 2929: # 수려한(그해열음)
-  - id: Section00001      # 표지
-  - id: Section00002      # 표지
-  - id: Section00003      # 제목
-  - id: Section00info     # 서지
+  - id: Section00001 # 표지
+  - id: Section00002 # 표지
+  - id: Section00003 # 제목
+  - id: Section00info # 서지
 2930: # 맹수주의(경화수월)
-  - id: cover_f.xhtml     # 표지
-  - id: Info.xhtml        # 제목
-  - id: cover_1.xhtml     # 표지
-  - id: cover_2.xhtml     # 서지
+  - id: cover_f.xhtml # 표지
+  - id: Info.xhtml # 제목
+  - id: cover_1.xhtml # 표지
+  - id: cover_2.xhtml # 서지
 2931: # 서울문화사(AVEMARIA)
-  - id: cover.xhtml       # 표지
+  - id: cover.xhtml # 표지
   - id: content_split_0001.xhtml # 제목
   - id: content_split_0003.xhtml # 서지
 2934: # 에이치비(기담항설)
-  - id: cover.xhtml       # 표지
-  - id: copyright.xhtml   # 서지
+  - id: cover.xhtml # 표지
+  - id: copyright.xhtml # 서지
 2935: # 동아미디어(고양이는 아홉 번을 산다)
-  - id: cover.xhtml       # 표지
+  - id: cover.xhtml # 표지
 2936: # 동아미디어(사랑에 빠지다)
-  - id: cover.xhtml       # 표지
+  - id: cover.xhtml # 표지
 2944: # 상상컴퍼니(달보드레)
-  - id: coverimage.html   # 표지
+  - id: coverimage.html # 표지
 2991: # 데일리북스
   - id: Section0001.xhtml # 표지
-  - id: TOC.xhtml         # 목차
+  - id: TOC.xhtml # 목차
 3007: # DR미디어
-  - id: cover.html        # 표지
+  - id: cover.html # 표지
 3026: [] # 신혜원(리모란)
 3049: # 뷰컴즈
-  - id: cover.xhtml       # 표지
-  - id: copyright.xhtml   # 서지
+  - id: cover.xhtml # 표지
+  - id: copyright.xhtml # 서지
     force: true
 3092: # 다온크리에이티브
-  - id: html1             # 표지
-  - id: html3             # 서지
+  - id: html1 # 표지
+  - id: html3 # 서지
     max_length: 1100
 3228: # JC미디어
-  - id: cover.xhtml       # 표지
-  - id: copyright.xhtml   # 서지
+  - id: cover.xhtml # 표지
+  - id: copyright.xhtml # 서지
     max_length: 1700
 3586: # JHS BOOKS
-  - id: book_cover        # 표지
-  - id: book_info         # 서지
+  - id: book_cover # 표지
+  - id: book_info # 서지
     force: true
 3667: # 와이앤케이미디어
-  - id: cover.xhtml       # 표지
-  - id: a2                # 서지
+  - id: cover.xhtml # 표지
+  - id: a2 # 서지
 3822: # 온글미디어
-  - id: cover.html        # 표지
-  - id: copyright.html    # 서지
+  - id: cover.html # 표지
+  - id: copyright.html # 서지
     max_length: 1650
 3864: # 위벨
-  - id: copyright.html    # 서지
+  - id: copyright.html # 서지
 4323: # 블랙시드
-  - id: cover.xhtml       # 표지
-  - id: copyright.xhtml   # 서지
+  - id: cover.xhtml # 표지
+  - id: copyright.xhtml # 서지
     force: true
 undefined: # 미정의 (default)
   - id: (?i)cover(?!story)
