@@ -181,6 +181,7 @@ meta:
   - id: GS_LPPoCH000_01_COV.xhtml # 표지
   - id: PNY001_LPPoCH001_01_COV.xhtml # 표지
   - id: Copyright.xhtml # 서지
+    force: true
 1623: # 수려한
   - id: Section00001 # 표지
   - id: Section00002 # 표지
