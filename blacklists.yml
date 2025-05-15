@@ -155,6 +155,7 @@ meta:
   - id: copyright.htm # 서지
 1483: # 피플앤스토리
   - id: Cover.xhtml # 표지
+  - id: cover.html # 표지
   - id: Title.xhtml # 제목
   - id: Copyright.xhtml # 서지
 1525: # KT
