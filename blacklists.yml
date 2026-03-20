@@ -112,6 +112,8 @@ meta:
 1190: # 스카이북
   - id: content1 # 표지
     force: true
+  - id: coverpage.xhtml # 표지
+  - id: copy.xhtml # 서지
 1239: # 북팔
   - id: titlepage # 표지
   - id: chapter1 # 서지
