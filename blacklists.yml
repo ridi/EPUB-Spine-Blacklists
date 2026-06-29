@@ -232,6 +232,7 @@ meta:
   - id: coverpage.xhtml # 표지
   - id: copy.xhtml # 서지
   - id: copyright.xhtml # 서지
+    max_length: 1600
 2065: # 제이플러스미디어
   - id: cover.html # 표지
   - id: license.html # 서지
